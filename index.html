@@ -1,1 +1,374 @@
-"Hello World" 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Organization details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/panels.css" rel="stylesheet" type="text/css">
+    <link href="css/tree.css" rel="stylesheet" type="text/css">
+    <link href="css/map.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="container-fluid">
+    		<div class="col-md-3">
+    			<div class="panel panel-info">
+    				<div class="panel-heading">
+    					<h3 class="panel-title">Structure</h3>
+    					<span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+    				</div>
+    				<div class="panel-body">
+                  <ul id="tree1">
+                      <li><a href="#">TECH</a>
+
+                          <ul>
+                              <li>Company Maintenance</li>
+                              <li>Employees
+                                  <ul>
+                                      <li>Reports
+                                          <ul>
+                                              <li>Report1</li>
+                                              <li>Report2</li>
+                                              <li>Report3</li>
+                                          </ul>
+                                      </li>
+                                      <li>Employee Maint.</li>
+                                  </ul>
+                              </li>
+                              <li>Human Resources</li>
+                          </ul>
+                      </li>
+                      <li>XRP
+                          <ul>
+                              <li>Company Maintenance</li>
+                              <li>Employees
+                                  <ul>
+                                      <li>Reports
+                                          <ul>
+                                              <li>Report1</li>
+                                              <li>Report2</li>
+                                              <li>Report3</li>
+                                          </ul>
+                                      </li>
+                                      <li>Employee Maint.</li>
+                                  </ul>
+                              </li>
+                              <li>Human Resources</li>
+                          </ul>
+                      </li>
+                  </ul>
+            </div>
+    			</div>
+    		</div>
+    		<div class="col-md-6">
+    			<div class="panel panel-primary">
+    				<div class="panel-heading">
+    					<h3 class="panel-title">Organization details</h3>
+    					<span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+    				</div>
+    				<div class="panel-body">
+<!--              <div class="row">  -->
+                <div class="row"></div>
+                <div class="col-md-6">
+                  <form class="form-horizontal" role="form">
+                    <fieldset>
+
+                      <!-- Form Name -->
+                      <legend>Address Details</legend>
+
+                      <!-- Text input-->
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label" for="textinput">Line 1</label>
+                        <div class="col-sm-10">
+                          <input type="text" placeholder="Address Line 1" class="form-control">
+                        </div>
+                      </div>
+
+                      <!-- Text input-->
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label" for="textinput">Line 2</label>
+                        <div class="col-sm-10">
+                          <input type="text" placeholder="Address Line 2" class="form-control">
+                        </div>
+                      </div>
+
+                      <!-- Text input-->
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label" for="textinput">City</label>
+                        <div class="col-sm-10">
+                          <input type="text" placeholder="City" class="form-control">
+                        </div>
+                      </div>
+
+                      <!-- Text input-->
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label" for="textinput">State</label>
+                        <div class="col-sm-4">
+                          <input type="text" placeholder="State" class="form-control">
+                        </div>
+
+                        <label class="col-sm-2 control-label" for="textinput">Postcode</label>
+                        <div class="col-sm-4">
+                          <input type="text" placeholder="Post Code" class="form-control">
+                        </div>
+                      </div>
+
+
+
+                      <!-- Text input-->
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label" for="textinput">Country</label>
+                        <div class="col-sm-10">
+                          <input type="text" placeholder="Country" class="form-control">
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                          <div class="pull-right">
+                            <button type="submit" class="btn btn-default">Cancel</button>
+                            <button type="submit" class="btn btn-primary">Save</button>
+                          </div>
+                        </div>
+                      </div>
+
+                    </fieldset>
+                  </form>
+                </div><!-- /.col-lg-12 -->
+                <div class="map-responsive col-md-6">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.052756176!2d-89.22536265330541!3d48.43632723975954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d5923d2ab2841bf%3A0xcc7539d0cc2abad2!2s306+Park+Ave%2C+Thunder+Bay%2C+ON+P7B!5e0!3m2!1sen!2sca!4v1424272930785" width="600" height="450" frameborder="0" style="border:0"></iframe>
+<!--                   <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6030.418742494061!2d-111.34563870463673!3d26.01036670629853!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1471908546569" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+                </div>
+<!--                <div class="col-md-1"></div>  -->
+<!--              </div> /.row -->
+            </div>
+    		  </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Departments</h3>
+              <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+            </div>
+            <div class="panel-body">
+              <div class="panel panel-primary">
+                  <div class="panel-heading">
+                      <span class="glyphicon glyphicon-list"></span>Sortable Lists
+                      <div class="pull-right action-buttons">
+                          <div class="btn-group pull-right">
+                              <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                  <span class="glyphicon glyphicon-cog" style="margin-right: 0px;"></span>
+                              </button>
+                              <ul class="dropdown-menu slidedown">
+                                  <li><a href="#"><span class="glyphicon glyphicon-pencil"></span>Edit</a></li>
+                                  <li><a href="#"><span class="glyphicon glyphicon-trash"></span>Delete</a></li>
+                                  <li><a href="#"><span class="glyphicon glyphicon-flag"></span>Flag</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="panel-body">
+                      <ul class="list-group">
+                          <li class="list-group-item">
+                              <div class="checkbox">
+                                  <input type="checkbox" id="checkbox" />
+                                  <label for="checkbox">
+                                      Department 1
+                                  </label>
+                              </div>
+                              <div class="pull-right action-buttons">
+                                  <a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
+                                  <a href="#" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+                                  <a href="#" class="flag"><span class="glyphicon glyphicon-flag"></span></a>
+                              </div>
+                          </li>
+                          <li class="list-group-item">
+                              <div class="checkbox">
+                                  <input type="checkbox" id="checkbox2" />
+                                  <label for="checkbox2">
+                                      Department 2
+                                  </label>
+                              </div>
+                             <div class="pull-right action-buttons">
+                                  <a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
+                                  <a href="#" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+                                  <a href="#" class="flag"><span class="glyphicon glyphicon-flag"></span></a>
+                              </div>
+                          </li>
+                          <li class="list-group-item">
+                              <div class="checkbox">
+                                  <input type="checkbox" id="checkbox3" />
+                                  <label for="checkbox3">
+                                      Department 3
+                                  </label>
+                              </div>
+                              <div class="pull-right action-buttons">
+                                  <a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
+                                  <a href="#" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+                                  <a href="#" class="flag"><span class="glyphicon glyphicon-flag"></span></a>
+                              </div>
+                          </li>
+                          <li class="list-group-item">
+                              <div class="checkbox">
+                                  <input type="checkbox" id="checkbox4" />
+                                  <label for="checkbox4">
+                                      Department 4
+                                  </label>
+                              </div>
+                              <div class="pull-right action-buttons">
+                                  <a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
+                                  <a href="#" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+                                  <a href="#" class="flag"><span class="glyphicon glyphicon-flag"></span></a>
+                              </div>
+                          </li>
+                          <li class="list-group-item">
+                              <div class="checkbox">
+                                  <input type="checkbox" id="checkbox5" />
+                                  <label for="checkbox5">
+                                      Department 5
+                                  </label>
+                              </div>
+                             <div class="pull-right action-buttons">
+                                  <a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
+                                  <a href="#" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+                                  <a href="#" class="flag"><span class="glyphicon glyphicon-flag"></span></a>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="panel-footer">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <h6>
+                                  Total Count <span class="label label-info">10</span></h6>
+                          </div>
+                          <div class="col-md-6">
+                              <ul class="pagination pagination-sm pull-right">
+                                  <li class="disabled"><a href="javascript:void(0)">«</a></li>
+                                  <li class="active"><a href="javascript:void(0)">1 <span class="sr-only">(current)</span></a></li>
+                                  <li><a href="#">2</a></li>
+                                  <li><a href="javascript:void(0)">»</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-info">
+    				<div class="panel-heading">
+    					<h3 class="panel-title">Employees</h3>
+    					<span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+    				</div>
+    				<div class="panel-body">
+              <div class="panel panel-primary">
+                  <div class="panel-heading">
+                      <span class="glyphicon glyphicon-list"></span>Sortable Lists
+                      <div class="pull-right action-buttons">
+                          <div class="btn-group pull-right">
+                              <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                  <span class="glyphicon glyphicon-cog" style="margin-right: 0px;"></span>
+                              </button>
+                              <ul class="dropdown-menu slidedown">
+                                  <li><a href="#"><span class="glyphicon glyphicon-pencil"></span>Edit</a></li>
+                                  <li><a href="#"><span class="glyphicon glyphicon-trash"></span>Delete</a></li>
+                                  <li><a href="#"><span class="glyphicon glyphicon-flag"></span>Flag</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="panel-body">
+                      <ul class="list-group">
+                          <li class="list-group-item">
+                              <div class="checkbox">
+                                  <input type="checkbox" id="checkbox" />
+                                  <label for="checkbox">
+                                      Maria Canvas
+                                  </label>
+                              </div>
+                              <div class="pull-right action-buttons">
+                                  <a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
+                                  <a href="#" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+                                  <a href="#" class="flag"><span class="glyphicon glyphicon-flag"></span></a>
+                              </div>
+                          </li>
+                          <li class="list-group-item">
+                              <div class="checkbox">
+                                  <input type="checkbox" id="checkbox2" />
+                                  <label for="checkbox2">
+                                      Sarah Comet
+                                  </label>
+                              </div>
+                             <div class="pull-right action-buttons">
+                                  <a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
+                                  <a href="#" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+                                  <a href="#" class="flag"><span class="glyphicon glyphicon-flag"></span></a>
+                              </div>
+                          </li>
+                          <li class="list-group-item">
+                              <div class="checkbox">
+                                  <input type="checkbox" id="checkbox3" />
+                                  <label for="checkbox3">
+                                      Peter Hornet
+                                  </label>
+                              </div>
+                              <div class="pull-right action-buttons">
+                                  <a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
+                                  <a href="#" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+                                  <a href="#" class="flag"><span class="glyphicon glyphicon-flag"></span></a>
+                              </div>
+                          </li>
+                          <li class="list-group-item">
+                              <div class="checkbox">
+                                  <input type="checkbox" id="checkbox4" />
+                                  <label for="checkbox4">
+                                      Mathew Collins
+                                  </label>
+                              </div>
+                              <div class="pull-right action-buttons">
+                                  <a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
+                                  <a href="#" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+                                  <a href="#" class="flag"><span class="glyphicon glyphicon-flag"></span></a>
+                              </div>
+                          </li>
+                          <li class="list-group-item">
+                              <div class="checkbox">
+                                  <input type="checkbox" id="checkbox5" />
+                                  <label for="checkbox5">
+                                      John Doe
+                                  </label>
+                              </div>
+                             <div class="pull-right action-buttons">
+                                  <a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
+                                  <a href="#" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+                                  <a href="#" class="flag"><span class="glyphicon glyphicon-flag"></span></a>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="panel-footer">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <h6>
+                                  Total Count <span class="label label-info">10</span></h6>
+                          </div>
+                          <div class="col-md-6">
+                              <ul class="pagination pagination-sm pull-right">
+                                  <li class="disabled"><a href="javascript:void(0)">«</a></li>
+                                  <li class="active"><a href="javascript:void(0)">1 <span class="sr-only">(current)</span></a></li>
+                                  <li><a href="#">2</a></li>
+                                  <li><a href="javascript:void(0)">»</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+    			</div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="js/panels.js" ></script>
+    <script src="js/tree.js" ></script>
+  </body>
+</html>
