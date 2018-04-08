@@ -1,0 +1,48 @@
+@media screen and (min-width: 768px) {
+
+  /*
+    HEADER
+  */
+  #header { position: relative; padding: 250px 0 150px 0; height: 700px; }
+  #logo { position: absolute; top: 45px; left: 45px; }
+
+  /*
+    NAV
+  */
+  #promo h1 { width: 40%; margin: 0 30% 15px 30%; }
+
+  /*
+    WORKS
+  */
+  .work-items { display: flex; justify-content: center; }
+  .work-item { width: 236px; height: 400px; margin-left: 10px; margin-right: 10px; }
+
+  /*
+    PARTNERS
+  */
+  #partners ul { display: flex; justify-content: center; flex-wrap: wrap; max-width: 720px; margin: auto;}
+  #partners ul li { width: 235px; }
+  #partners p { margin-left: 10px; margin-right: 10px; }
+  #partners .btn { width: auto; }
+
+  /*
+    ACTIVITIES
+  */
+  #activities ul { display: flex; flex-wrap: wrap; justify-content: center; width: 792px; margin: auto; }
+  .activity-item { width: 236px; height: 310px; margin-right: 20px; margin-bottom: 20px; }
+  .activity-item.culture { width: 492px; }
+  .activity-item.relax { width: 492px; }
+  #interests { text-align: center; }
+  #interests input[type="text"] { margin-top: 15px; width: 300px; }
+  #interests .btn { width: auto; }
+
+  /*
+    FOOTER
+  */
+  #footer { }
+  #footer>div { display: flex; justify-content: space-evenly; }
+  #footer .footer-col { width: 200px; text-align: left; }
+  #footer #footer-nav li { display: block; }
+  #footer #footer-designer-logo.footer-col { text-align: right; text-transform: uppercase; }
+
+}
