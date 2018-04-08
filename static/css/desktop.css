@@ -1,0 +1,35 @@
+@media screen and (min-width: 1024px) {
+
+  /*
+    HEADER
+  */
+  #logo { left: 15%; }
+
+  /*
+    NAV
+  */
+  #nav-btn { display: none; }
+  #navigation { display: block; position: absolute; top: 45px; right: 15%; }
+  #navigation li { display: inline-block; margin: 0 10px}
+  #promo h1 { width: 30%; margin: 0 35% 15px 35%; }
+
+  /*
+    WORKS
+  */
+  .work-item { width: 300px; }
+
+  /*
+    PARTNERS
+  */
+  #partners ul { display: flex; justify-content: center; flex-wrap: nowrap; max-width: 100%; }
+  #partners ul li { width: 220px; }
+
+  /*
+    ACTIVITIES
+  */
+  #activities ul { width: 960px; margin: auto; }
+  .activity-item { width: 300px; }
+  .activity-item.culture { width: 620px; }
+  .activity-item.relax { width: 620px; }
+
+}

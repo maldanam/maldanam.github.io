@@ -114,17 +114,3 @@ h3 { color: #444; font-family: 'Montserrat', sans-serif; font-weight: 700; font-
 #footer .footer-title.small { color: #ccc; font-size: 10px; }
 #footer #footer-nav li { display: inline-block; padding: 0 7px; }
 #footer #footer-nav a { color: #ccc; font-size: 14px; line-height: 1.7em; }
-
-
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
-/* TABLET */
-@media screen and ( min-width: 768px ) {
-
-}
-
-/* DESKTOP */
-@media screen and ( min-width: 1024px ) {
-}
